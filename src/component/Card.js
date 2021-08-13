@@ -1,0 +1,118 @@
+import React from 'react'
+import { Carousel, Nav, Card, Button, Image, Container } from "react-bootstrap"
+import "./Card.css"
+import b from "../images/b.png"
+import d from "../images/d.jpeg"
+const Card1 = () => {
+    return (
+        <>
+            <div className="row">
+                <div className=" image1">
+
+
+                </div>
+                <div className="h11">
+
+                    <span className="font-weight-bolder " style={{ fontSize: "72px", color: "blue" }}>
+                        Join   the <span className=" font-weight-normal" style={{ fontSize: "72px", color: "blue" }}>
+                            Family</span> </span>
+                    <br />
+                    <span className=" font-weight-normal" style={{ fontSize: "24px", color: "black", letterSpacing: "4px" }}>STUDENT<b> AMBASSADOR</b></span>
+                    <br />
+                    <span className=" font-weight-normal" style={{ fontSize: "20px", color: "black", letterSpacing: "4px" }}>Lorem ipsum sit amet</span>
+                    <br />
+                    <Button className="btn " style={{ backgroundColor: "blue" }}>REGISTER</Button>
+                </div>
+            </div>
+            <Container>
+                <div className="role">
+                    <span className="font-weight-bolder " style={{ fontSize: "50px", color: "blue" }}>
+                        Role <span className=" font-weight-normal" style={{ fontSize: "50px", color: "blue" }}>
+                            of a Student Ambassador
+                        </span> </span>
+                </div>
+                <div className="row">
+                    <div className="col-5 lorem-role">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Semper
+                        imperdiet nam diam hac vehicula
+                        massa fames diam tortor. Nam
+                        nunc fringilla viverra sit diam
+                        aliquam. Integer varius porttitor
+                        pretium a. Quis a cras at lorem
+                        libero dolor eu rhoncus. Purus sit
+                        arcu, in eget tortor ut tellus.
+
+                        Nam nunc fringilla viverra sit diam
+                        aliquam. Integer varius porttitor
+                        pretium a.
+                    </div>
+                    <div className="col-7">
+                        <div className=" image2">
+
+
+                        </div>
+                    </div>
+                </div>
+            </Container>
+            <Container>
+            <span className="font-weight-bolder role " style={{ fontSize: "50px", color: "blue" }}>
+                        Responsiblities <span className=" font-weight-normal" style={{ fontSize: "50px", color: "blue" }}>
+                            and specific duties
+                        </span> </span>
+                <div className="margin-role">
+                    
+                    <br />
+                    <div ><img src={d} alt="" />
+                        <span className="logo-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                            <br />
+
+                            <span className="below-word"> luctus venenatis</span></span>
+                    </div>
+                    <br />
+                    <div ><img src={d} alt="" />
+                        <span className="logo-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                            <br />
+
+                            <span className="below-word"> luctus venenatis</span></span>
+                    </div>
+                    <br />
+                    <div ><img src={d} alt="" />
+                        <span className="logo-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                            <br />
+
+                            <span className="below-word"> luctus venenatis</span></span>
+                    </div>
+                    <br />
+                    <div ><img src={d} alt="" />
+                        <span className="logo-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                            <br />
+
+                            <span className="below-word"> luctus venenatis</span></span>
+                    </div>
+                    <br />
+                    <div ><img src={d} alt="" />
+                        <span className="logo-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                            <br />
+
+                            <span className="below-word"> luctus venenatis</span></span>
+                    </div>
+                    <br />
+                    <div ><img src={d} alt="" />
+                        <span className="logo-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                            <br />
+
+                            <span className="below-word"> luctus venenatis</span></span>
+                    </div>
+
+
+                </div>
+            </Container>
+        </>
+
+
+
+    )
+}
+
+export default Card1;

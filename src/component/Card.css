@@ -1,0 +1,86 @@
+.Ocard{
+    margin: 100px 0;
+    overflow: hidden;
+}
+    .image1{
+        background-image: url("../images/b.png");
+        /* opacity: 0.7;  */
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+        height: 700px;
+        position: relative;
+       
+    }
+    .image2{
+        background-image: url("../images/c.png");
+        /* opacity: 0.7;  */
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        /* position: relative; */
+       
+    }
+    .h11{
+        position: absolute;
+        right:100px;
+        top:250px;
+        /* border: 1px solid red; */
+        letter-spacing: 9px;
+        text-align: right;
+        line-height: 50px;
+    }
+    .role{
+        letter-spacing: 6px;
+    }
+    .lorem-role{
+        /* position: absolute; */
+        /* right:100px;
+        top:250px; */
+        /* border: 1px solid red; */
+        margin-top: 50px;;
+        letter-spacing: 2px;
+        text-align: right;
+        line-height: 35px;
+        font-weight: 200px;
+        font-size: 28px;
+        text-align: left;
+    }
+.logo-text{
+    font-size: 24px;
+    /* font-weight: 200px;
+     */
+     font-weight: bold;
+     line-height: 30px;
+     
+}
+.below-word{
+    margin-left: 80px;
+    /* float: left; */
+}
+.margin-role{
+    margin-top: 50px;
+}
+
+
+
+    .title{
+        font-size: 50px;
+        text-shadow: -3px 3px #bbb;
+    }
+    .blink{  
+        font-size: 2em;
+        animation-name: blink;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes blink{
+        0%   {color: red;}
+        25%  {color: orange;}
+        50%  {color: yellow;}
+        100% {color:blueviolet;}
+    }
+   
+
